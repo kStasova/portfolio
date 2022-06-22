@@ -1,0 +1,14 @@
+{
+  "name": "vendor_name/som-katka",
+  "description": "portfolio",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Katarína Stasová",
+      "email": "stasovakatka6688@gmail.com"
+    }
+  ],
+  "require": {
+  }
+}
