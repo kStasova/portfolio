@@ -11,31 +11,58 @@ html {
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    html{
+        font-size: 10px;
+    }
+    body{
+        margin: 20px 10px;
+    }
+    article{
+        padding: 10px 20px !important;
+    }
+    #obrazok{
+        width: 200px;
+        height: 200px;
+        margin: 0 0 15px 0 !important;
+    }
+    #citat{
+        display: none;
+    }
+
+    .project > img{
+        width: 260px;
+        height: 260px;
+    }
+    .description {
+        width: 220px !important;
+        height: 220px!important;}
+}
 
 h1 {
     font-family: 'Fredoka One', 'The Girl Next Door', cursive;
-    font-size: 120px;
-    margin-bottom: 40px;
+    font-size: 7rem;
+    margin-bottom: 4rem;
     font-weight: initial;
     text-shadow: 4px 1px darkkhaki;
 }
 
 h2 {
     color: white;
-    font-size: 50px;
+    font-size: 3.2rem;
     text-align: center;
-    line-height: 50px;
+    line-height: 3.1rem;
 }
 
 .podstranky {
-    font-size: 30px;
-    margin-bottom: 10px;
-
+    font-size: 1.88rem;
+    margin-bottom: 0.61rem;
+    padding-left: 0;
 }
 
 ul.podstranky li {
     display: inline;
-    margin: 10px;
+    margin: 0.68rem;
 }
 
 ul.podstranky li a{
@@ -53,21 +80,22 @@ ul.podstranky li:hover {
     border-color: white;
     border-radius: 180px;
     float: left;
-    margin: 0 40px 30px 20px;
+    margin: 0 2.5rem 2rem 1.2rem;
+    padding: 15px;
 
 }
 
 article {
     overflow: auto;
     text-align: left;
-    padding: 10px 50px;
-    line-height: 25px;
-    font-size: 20px;
+    padding: 0.7rem 3.1rem;
+    line-height: 1.58rem;
+    font-size: 1.25rem;
 }
 
 section {
     background: darkkhaki;
-    padding: 10px 60px;
+    padding: 0.57rem 3.79rem;
 }
 
 
@@ -140,13 +168,16 @@ nav {
     padding: 0;
 }
 
+#kontakt{
+    padding-left: 2px;
+}
 #kontakt li a {
     display: flex;
     flex-direction: row;
 }
 
 .kontakt-img-div{
-    width: 45px;
+    width: 50px;
 }
 
 /*zivotopis*/
