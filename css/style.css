@@ -36,7 +36,12 @@ h2 {
 ul.podstranky li {
     display: inline;
     margin: 10px;
+}
 
+ul.podstranky li a{
+
+    color: darkkhaki;
+    text-decoration: none;
 }
 
 ul.podstranky li:hover {
@@ -100,10 +105,11 @@ ul.odkazy li {
 
 }
 
-ul li a {
-    color: darkkhaki;
+ul li .link {
+    color: white;
     text-decoration: none;
 }
+
 
 
 ul#kontakt li {
@@ -132,6 +138,15 @@ nav {
     border-top-right-radius: 0;
     background: black;
     padding: 0;
+}
+
+#kontakt li a {
+    display: flex;
+    flex-direction: row;
+}
+
+.kontakt-img-div{
+    width: 45px;
 }
 
 /*zivotopis*/
